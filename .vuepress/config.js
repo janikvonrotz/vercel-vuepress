@@ -6,6 +6,7 @@ module.exports = {
     description: 'A minimal reproducible repository.',
     theme: defaultTheme({
         navbar: [
+            { text: 'Home', link: '/' },
             { text: 'Snippets', link: '/snippets' },
         ],
     }),
